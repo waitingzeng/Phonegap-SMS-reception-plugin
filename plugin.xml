@@ -14,8 +14,6 @@
 
     <!-- a single file, to be copied in the root directory -->
     <asset src="www/SmsInboxPlugin.js" target="SmsInboxPlugin.js" />
-    <!-- a directory, also to be copied in the root directory -->
-    <asset src="www/SmsInboxPlugin" target="SmsInboxPlugin" />
 
     <source-file src="src/org/apache/cordova/plugin/SmsInboxPlugin.java" />
     <source-file src="src/org/apache/cordova/plugin/SmsReceiver.java" />
