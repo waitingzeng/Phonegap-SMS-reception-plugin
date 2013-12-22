@@ -1,0 +1,23 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+           id="org.apache.cordova.console"
+      version="0.2.5">
+
+    <name>SMS</name>
+    <description>Cordova SMS Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,sms</keywords>
+    <repo>https://github.com/waitingzeng/Phonegap-SMS-reception-plugin.git</repo>
+    <issue></issue>
+
+    <!-- a single file, to be copied in the root directory -->
+    <asset src="www/SmsInboxPlugin.js" target="SmsInboxPlugin.js" />
+    <!-- a directory, also to be copied in the root directory -->
+    <asset src="www/SmsInboxPlugin" target="SmsInboxPlugin" />
+
+    <source-file src="src/org/apache/cordova/plugin/SmsInboxPlugin.java" />
+    <source-file src="src/org/apache/cordova/plugin/SmsReceiver.java" />
+
+</plugin>
